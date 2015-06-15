@@ -1,0 +1,160 @@
+/*
+ Theme Name:   Zichtopmantelzorg
+ Theme URI:    http://github.com/jaffle-be/mantelzorg-theme/
+ Description:  Interface Child Theme
+ Author:       Thomas Warlop
+ Author URI:
+ Template:     interface
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         zichtopmantelzorg
+ Text Domain:  zichtopmantelzorg
+*/
+/**
+ * Panel colors
+ */
+#site-logo {
+  margin-top: 0 !important;
+}
+#site-logo #brand {
+  display: block;
+  text-transform: uppercase;
+  padding: 25px 12px;
+  font-size: 18px;
+  color: #777;
+}
+#site-logo #brand:hover,
+#site-logo #brand:focus,
+#site-logo #brand:active {
+  color: #63c6ae;
+}
+#site-logo #brand img {
+  display: block;
+  padding-bottom: 0 !important;
+}
+#site-logo #brand span {
+  border-top: 1px solid #777777;
+}
+@media (max-width: 767px) {
+  #site-logo #brand img {
+    display: none;
+  }
+  #site-logo #brand span {
+    border-top: none;
+  }
+}
+@media (max-width: 767px) {
+  #site-logo .navbar {
+    min-height: inherit;
+  }
+  #site-logo .navbar-brand {
+    height: auto;
+  }
+  #site-logo .navbar-toggle {
+    margin: 8px;
+    margin-bottom: 0;
+  }
+}
+header h1 {
+  font-weight: 400;
+}
+header a {
+  text-transform: uppercase;
+}
+header #access li a,
+header .search-toggle {
+  padding-top: 49px;
+  margin-top: 0;
+}
+@media (max-width: 767px) {
+  header #access li a {
+    padding-top: 10px;
+  }
+  header #site-logo {
+    margin-bottom: 0;
+  }
+  header .menu-toggle {
+    margin-top: 29px;
+  }
+}
+#page-header {
+  background-color: #63c6ae;
+  padding: 1.5em;
+}
+@media (max-width: 768px) {
+  #page-header {
+    padding: 1em;
+  }
+}
+#page-header::after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+#page-header .left {
+  float: left;
+}
+#page-header .right {
+  float: right;
+}
+#page-header .right .alert {
+  font-size: 14px;
+  padding: 0.5em;
+  margin: 0;
+}
+#page-header h2 {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: normal;
+  text-transform: none;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  #brand {
+    font-size: 18px;
+  }
+}
+#site-logo h1 {
+  font-weight: 400;
+}
+#site-logo a {
+  text-transform: uppercase;
+}
+#page-header {
+  background-color: #63c6ae;
+  padding: 1.5em;
+}
+@media (max-width: 768px) {
+  #page-header {
+    padding: 1em;
+  }
+}
+#page-header::after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+#page-header .left {
+  float: left;
+}
+#page-header .right {
+  float: right;
+}
+#page-header .right .alert {
+  font-size: 14px;
+  padding: 0.5em;
+  margin: 0;
+}
+#page-header h2 {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: normal;
+  text-transform: none;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  #brand {
+    font-size: 18px;
+  }
+}
