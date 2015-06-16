@@ -11,6 +11,14 @@ function mantelzorg_files()
 }
 
 /**
+ * load dutch translations, put them here so we have them in version control and we will not loose our work
+ * when someone presses update for the parent theme
+ */
+
+load_theme_textdomain( 'interface', get_stylesheet_directory() . '/languages' );
+
+
+/**
  * setup styles modifications
  */
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
